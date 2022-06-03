@@ -1,9 +1,10 @@
 import React from 'react'
+import Picture from '../resources/IMG_9217.jpg'
 
 const Left = () => {
   return (
     <div className="left">
-      <p>asd;lfjasdlfjlasdjflkasdjflkasdjflkasjfdadfasdfdasfasdsdalk</p>
+      <img src={Picture} alt="Mark" className="profilePicture" />
     </div>
   )
 }
