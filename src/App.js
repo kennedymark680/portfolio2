@@ -1,9 +1,14 @@
 import './App.css'
+import Left from './components/Left'
+import Top from './components/Top'
+import Main from './components/Main'
 
 function App() {
   return (
     <div className="App">
-      <div>Test</div>
+      <Left />
+      <Top />
+      <Main />
     </div>
   )
 }
