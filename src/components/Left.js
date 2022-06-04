@@ -1,7 +1,7 @@
 import React from 'react'
 import Picture from '../resources/IMG_9217.jpg'
 
-const Left = () => {
+const Left = ({ setMain }) => {
   return (
     <div className="left">
       <img src={Picture} alt="Mark" className="profilePicture" />
@@ -13,6 +13,11 @@ const Left = () => {
         creative, driven problem solver. What I pride myself most is my ability
         learn, and to know more today than I did yesterday.
       </p>
+      <ul>
+        <li onClick={() => setMain('experience')}>Experience</li>
+        <li onClick={() => setMain('projects')}>Projects</li>
+        <li onClick={() => setMain('contact')}>Contact</li>
+      </ul>
     </div>
   )
 }
