@@ -1,7 +1,7 @@
 import React from 'react'
 import { ProjectData } from '../resources/ProjectData'
 import Experience from './Experience'
-import Projects from './Projects'
+import ProjectsDisplay from './ProjectDisplay'
 import Contact from './Contact'
 
 export const Main = ({ main }) => {
@@ -9,15 +9,12 @@ export const Main = ({ main }) => {
 
   switch (main) {
     case 'contact':
-      console.log('contact')
       display = <Contact />
       break
     case 'projects':
-      console.log('project')
-      display = <Projects />
+      display = <ProjectsDisplay />
       break
     default:
-      console.log('experience')
       display = <Experience />
       break
   }
