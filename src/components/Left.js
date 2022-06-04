@@ -14,9 +14,15 @@ const Left = ({ setMain }) => {
         learn, and to know more today than I did yesterday.
       </p>
       <ul>
-        <li onClick={() => setMain('experience')}>Experience</li>
-        <li onClick={() => setMain('projects')}>Projects</li>
-        <li onClick={() => setMain('contact')}>Contact</li>
+        <li>
+          <button onClick={() => setMain('experience')}>Experience</button>
+        </li>
+        <li>
+          <button onClick={() => setMain('projects')}>Projects</button>
+        </li>
+        <li>
+          <button onClick={() => setMain('contact')}>Contact</button>
+        </li>
       </ul>
     </div>
   )
