@@ -167,3 +167,30 @@ li {
   text-decoration: none;
   color: black;
 }
+
+@media only screen and (max-width: 480px) {
+
+  .projectsDisplay {
+    grid-template-columns: 1fr;
+  }
+
+  .projectButtons {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #112240;
+    border-right: none;
+  }
+
+  .projectButtons button {
+    margin: 1em;
+  }
+
+  .videoTitleDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }
+}
