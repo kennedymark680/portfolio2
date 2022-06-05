@@ -32,7 +32,7 @@ const ProjectsDisplay = () => {
           </button>
         ))}
       </div>
-      {display}
+      <div className="projectContainer">{display}</div>
     </div>
   )
 }
