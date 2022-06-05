@@ -191,6 +191,10 @@ li {
   .videoTitleDesc {
     display: flex;
     flex-direction: column;
-    align-items: space-around;
+  }
+
+  .video {
+    width: 70vw;
+    height: 70vw;
   }
 }
