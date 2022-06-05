@@ -133,6 +133,6 @@
 .video {
   grid-area: a;
   height: 20vw;
-  width: auto;
+  width: 20vw;
   border-radius: 5px;
 }

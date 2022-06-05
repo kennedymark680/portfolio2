@@ -18,6 +18,7 @@ const Project = ({ project }) => {
         <p className="projectDesc">{project.description}</p>
       </div>
       <h4>{'}'}</h4>
+      <div></div>
     </div>
   )
 }
