@@ -97,3 +97,33 @@
 .projectInfo {
   background-color: purple;
 }
+
+.videoTitleDesc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas: 
+  "a b"
+  "a c"
+  ;
+
+  align-items: center;
+  justify-items: center;
+}
+
+.projectTitle {
+  grid-area: b;
+}
+
+.projectDesc {
+  grid-area: c;
+  align-self: flex-start;
+}
+
+.video {
+  grid-area: a;
+  height: 20vw;
+  width: auto;
+  border-radius: 5px;
+}

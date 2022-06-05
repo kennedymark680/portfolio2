@@ -24,12 +24,15 @@ const ProjectsDisplay = () => {
     <div className="projectsDisplay">
       <div className="projectButtons">
         {projects.map((project) => (
-          <button onClick={() => setSelectedProject(project.title)}>
+          <button
+            key={project.title}
+            onClick={() => setSelectedProject(`${project.title}`)}
+          >
             {project.title}
           </button>
         ))}
       </div>
-      <div className="projectInfo">m</div>
+      {display}
     </div>
   )
 }
