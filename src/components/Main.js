@@ -8,10 +8,10 @@ export const Main = ({ main }) => {
   let display
 
   switch (main) {
-    case 'contact':
+    case 'Contact':
       display = <Contact />
       break
-    case 'projects':
+    case 'Projects':
       display = <ProjectsDisplay />
       break
     default:
@@ -19,7 +19,12 @@ export const Main = ({ main }) => {
       break
   }
 
-  return <div className="main">{display}</div>
+  return (
+    <div className="main">
+      <h2 className="mainHeader">{main}</h2>
+      {display}
+    </div>
+  )
 }
 
 export default Main

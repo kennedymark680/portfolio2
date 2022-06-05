@@ -14,14 +14,14 @@ const Left = ({ setMain }) => {
         learn, and to know more today than I did yesterday.
       </p>
       <ul>
-        <li onClick={() => setMain('experience')}>
+        <li onClick={() => setMain('Experience')}>
           <button>Experience</button>
         </li>
         <li>
-          <button onClick={() => setMain('projects')}>Projects</button>
+          <button onClick={() => setMain('Projects')}>Projects</button>
         </li>
         <li>
-          <button onClick={() => setMain('contact')}>Contact</button>
+          <button onClick={() => setMain('Contact')}>Contact</button>
         </li>
       </ul>
     </div>
