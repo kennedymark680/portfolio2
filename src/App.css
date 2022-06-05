@@ -170,10 +170,25 @@ li {
 
 @media only screen and (max-width: 480px) {
 
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top,
+  .left,
+  .main {
+    padding: 1.5em;
+  }
+
   .top {
     grid-template-columns: 1fr;
   }
   
+  .profilePicture {
+    width: 50vw;
+  }
+
   .projectsDisplay {
     grid-template-columns: 1fr;
   }
@@ -186,10 +201,12 @@ li {
     align-items: center;
     border-bottom: 1px solid #112240;
     border-right: none;
+    width: 90%;
+    justify-self: center;
   }
 
   .projectButtons button {
-    margin: 1em;
+    margin: 0 0 1em 0;
   }
 
   .videoTitleDesc {
@@ -200,5 +217,13 @@ li {
   .video {
     width: 70vw;
     height: 70vw;
+  }
+
+  .mainHeader {
+    margin: 5% 0 0 10%;
+  }
+
+  .projectTitle {
+    margin: 1em 0;
   }
 }

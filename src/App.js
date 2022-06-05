@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <Left setMain={setMain} />
       <Top />
+      <Left setMain={setMain} />
       <Main main={main} />
     </div>
   )
