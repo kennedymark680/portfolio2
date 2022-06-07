@@ -2,14 +2,14 @@ import React from 'react'
 import { ProjectData } from '../resources/ProjectData'
 import Experience from './Experience'
 import ProjectsDisplay from './ProjectDisplay'
-import Contact from './Contact'
+import Skills from './Skills'
 
 export const Main = ({ main }) => {
   let display
 
   switch (main) {
-    case 'Contact':
-      display = <Contact />
+    case 'Skills':
+      display = <Skills />
       break
     case 'Projects':
       display = <ProjectsDisplay />

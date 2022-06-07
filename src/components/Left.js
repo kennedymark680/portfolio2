@@ -21,7 +21,7 @@ const Left = ({ setMain }) => {
           <button onClick={() => setMain('Projects')}>Projects</button>
         </li>
         <li>
-          <button onClick={() => setMain('Contact')}>Contact</button>
+          <button onClick={() => setMain('Skills')}>Skills</button>
         </li>
       </ul>
     </div>

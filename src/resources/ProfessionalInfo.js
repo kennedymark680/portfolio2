@@ -9,13 +9,16 @@ export const ProfessionalInfo = {
     'linkedin.com/in/kennedymark680',
     'kennedymark680'
   ],
+  skillsDesc:
+    'I am going to write some amazing stuff about myself here, and here.',
   skills: [
+    'ReactJS',
+    'JavaScript',
+    'PostgreSQL',
+    'NodeJS',
     'HTML',
     'CSS',
-    'JavaScript',
     'ES6',
-    'ReactJS',
-    'NodeJS',
     'VueJS',
     'Redux',
     'Express',
@@ -23,7 +26,6 @@ export const ProfessionalInfo = {
     'MongoDB',
     'GitHub',
     'Heroku',
-    'PostgreSQL',
     'SQL',
     'Trello',
     'Python3',
