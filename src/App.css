@@ -227,3 +227,14 @@ li {
     margin: 1em 0;
   }
 }
+
+.skills {
+  align-self: flex-start;
+  margin: 10vh 0 0 0;
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10vh 0 0 0;
+}
