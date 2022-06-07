@@ -10,7 +10,7 @@ export const ProfessionalInfo = {
     'kennedymark680'
   ],
   skillsDesc:
-    'I am going to write some amazing stuff about myself here, and here.',
+    "I'm a software engineer, I love creating things. My interest in technology started back in 2018 when I taught myself how to use graphic design software and the fundamentals of web development. My curiosity has made my hobby a career, one where my hunger for creating, learning and personal development can be satisfied.",
   skills: [
     'ReactJS',
     'JavaScript',
