@@ -36,6 +36,20 @@
   margin: 0 1.5em;
 }
 
+.left button {
+  color: white;
+  height: 3em;
+  width: 10em;
+  border: 1.5px solid white;
+  background-color: rgba(255,255,255,.1);
+  border-radius: 5px;
+}
+
+.left button:hover {
+  background-color: white;
+  color: #112240;
+}
+
 .top {
   grid-area: b;
 
