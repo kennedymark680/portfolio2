@@ -1,5 +1,6 @@
 import React from 'react'
 import Picture from '../resources/IMG_9217.jpg'
+import Resume from '../resources/Mark Kennedy - 5-17-22 (1).pdf'
 
 const Left = ({ setMain }) => {
   return (
@@ -14,6 +15,9 @@ const Left = ({ setMain }) => {
         my ability learn, and to know more today than I did yesterday.
       </p>
       <ul>
+        <li>
+          <button onClick={() => setMain('Skills')}>Skills</button>
+        </li>
         <li onClick={() => setMain('Experience')}>
           <button>Experience</button>
         </li>
@@ -21,7 +25,9 @@ const Left = ({ setMain }) => {
           <button onClick={() => setMain('Projects')}>Projects</button>
         </li>
         <li>
-          <button onClick={() => setMain('Skills')}>Skills</button>
+          <a href={Resume} target="_blank">
+            Resume
+          </a>
         </li>
       </ul>
     </div>

@@ -7,14 +7,14 @@ export const Main = ({ main }) => {
   let display
 
   switch (main) {
-    case 'Skills':
-      display = <Skills />
+    case 'Experience':
+      display = <Experience />
       break
     case 'Projects':
       display = <ProjectsDisplay />
       break
     default:
-      display = <Experience />
+      display = <Skills />
       break
   }
 
