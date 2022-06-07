@@ -1,5 +1,4 @@
 import React from 'react'
-import { ProjectData } from '../resources/ProjectData'
 import Experience from './Experience'
 import ProjectsDisplay from './ProjectDisplay'
 import Skills from './Skills'

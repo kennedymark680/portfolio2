@@ -7,7 +7,7 @@ const Skills = () => {
       <h3>{ProfessionalInfo.skillsDesc}</h3>
       <div className="skillsList">
         {ProfessionalInfo.skills.map((skill) => (
-          <h4>{skill}</h4>
+          <h4 key={skill}>{skill}</h4>
         ))}
       </div>
     </div>
