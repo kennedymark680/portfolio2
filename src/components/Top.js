@@ -11,9 +11,11 @@ export const Top = () => {
         <h3 className="titles">Helicopter Pilot</h3>
       </div>
       <div className="top-right">
-        <h3>kennedymark680@gmail.com</h3>
-        <h3>linkedin.com/in/kennedymark680</h3>
-        <h3>kennedymark680</h3>
+        <h3 className="contactRight">kennedymark680@gmail.com</h3>
+        <h3 className="contactRight">linkedin.com/in/kennedymark680</h3>
+        <h3 className="contactRight" id="bottomContact">
+          kennedymark680
+        </h3>
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ import Main from './components/Main'
 import { useState } from 'react'
 
 function App() {
-  const [main, setMain] = useState('Skills')
+  const [main, setMain] = useState('ABOUT')
 
   return (
     <div className="App">

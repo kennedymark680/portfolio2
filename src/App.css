@@ -33,6 +33,11 @@
 
 .left p {
   margin: 0 1.5em;
+  font-weight: 100;
+}
+
+.profileContent {
+  margin: 3em 0 0 0;
 }
 
 
@@ -71,6 +76,15 @@
 
 .titles {
   color: #b9992c;
+}
+
+.contactRight {
+  padding: .75em 0;
+  border-bottom: #112240 dashed 1px;
+}
+
+#bottomContact {
+  border-bottom: none;
 }
 
 .main {

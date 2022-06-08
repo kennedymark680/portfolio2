@@ -6,6 +6,7 @@ const Left = ({ setMain }) => {
   return (
     <div className="left">
       <img src={Picture} alt="Mark" className="profilePicture" />
+
       <h3>ABOUT ME</h3>
       <p>
         I am an accomplished helicopter pilot seeking new challenges. Over the
@@ -16,13 +17,16 @@ const Left = ({ setMain }) => {
       </p>
       <ul>
         <li>
-          <button onClick={() => setMain('Skills')}>Skills</button>
+          <button onClick={() => setMain('ABOUT')}>About</button>
         </li>
-        <li onClick={() => setMain('Experience')}>
+        <li>
+          <button onClick={() => setMain('SKILLS')}>Skills</button>
+        </li>
+        <li onClick={() => setMain('EXPERIENCE')}>
           <button>Experience</button>
         </li>
         <li>
-          <button onClick={() => setMain('Projects')}>Projects</button>
+          <button onClick={() => setMain('PROJECTS')}>Projects</button>
         </li>
         <li>
           <button className="resume">
