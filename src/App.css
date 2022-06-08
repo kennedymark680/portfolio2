@@ -74,6 +74,11 @@
   font-weight: 100;
 }
 
+.icon {
+  height: 1.2em;
+  width: auto;
+}
+
 .titles {
   color: #b9992c;
 }
