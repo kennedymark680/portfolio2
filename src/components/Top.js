@@ -15,17 +15,32 @@ export const Top = () => {
       </div>
       <div className="top-right">
         <h3 className="contactRight">
-          <img src={EmailIcon} alt="email Icon" className="icon"></img>
+          <a href="mailto:kennedymark680@gmail.com" rel="noreferrer">
+            {' '}
+            <img src={EmailIcon} alt="email Icon" className="icon"></img>
+          </a>
           kennedymark680@gmail.com
         </h3>
         <h3 className="contactRight">
           {' '}
-          <img src={LinkedInIcon} alt="linkedIn Icon" className="icon"></img>
+          <a
+            href="https://www.linkedin.com/in/kennedymark680/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={LinkedInIcon} alt="linkedIn Icon" className="icon"></img>
+          </a>
           linkedin.com/in/kennedymark680
         </h3>
         <h3 className="contactRight" id="bottomContact">
           {' '}
-          <img src={GitHubIcon} alt="gitHub Icon" className="icon"></img>
+          <a
+            href="https://github.com/kennedymark680"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={GitHubIcon} alt="gitHub Icon" className="icon"></img>
+          </a>
           kennedymark680
         </h3>
       </div>
