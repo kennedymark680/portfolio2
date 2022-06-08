@@ -36,13 +36,15 @@
   margin: 0 1.5em;
 }
 
-.left button {
+.left button,
+.left a {
   color: white;
   height: 3em;
   width: 10em;
   border: 1.5px solid white;
   background-color: rgba(255,255,255,.1);
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .left button:hover {
@@ -259,8 +261,10 @@ li {
   margin: 3em 5em 0 5em;
 }
 
+
 .skillsList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 3em 0 0 0;
 }
+
