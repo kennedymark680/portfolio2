@@ -72,11 +72,19 @@
 
 .top h3 {
   font-weight: 100;
+  display: flex;
+  align-items: center;
 }
 
 .icon {
-  height: 1.2em;
+  height: 1em;
   width: auto;
+  margin: 0 10px 0 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+  animation: zoom .1s linear forwards;
 }
 
 .titles {
