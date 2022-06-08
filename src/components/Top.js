@@ -6,9 +6,9 @@ export const Top = () => {
       <div className="top-left">
         <h1>Mark</h1>
         <h1>Kennedy</h1>
-        <h3>Software Engineer</h3>
-        <h3>Designer</h3>
-        <h3>Helicopter Pilot</h3>
+        <h3 className="titles">Software Engineer</h3>
+        <h3 className="titles">Designer</h3>
+        <h3 className="titles">Helicopter Pilot</h3>
       </div>
       <div className="top-right">
         <h3>kennedymark680@gmail.com</h3>

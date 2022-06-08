@@ -69,6 +69,10 @@
   font-weight: 100;
 }
 
+.titles {
+  color: #b9992c;
+}
+
 .main {
   grid-area: c;
   background-color: white;
@@ -110,6 +114,17 @@
 .projectButtons button:hover {
   background-color: #112240;
   color: white;
+  cursor: pointer;
+  animation: zoom .1s linear forwards;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -188,6 +203,7 @@
   height: 20vw;
   width: 20vw;
   border-radius: 5px;
+  box-shadow: 1px 1px 5px 3px	#c5c5c5;
 }
 
 /* .links img {
