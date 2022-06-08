@@ -26,6 +26,7 @@ const ProjectsDisplay = () => {
         {projects.map((project) => (
           <button
             key={project.title}
+            className="projectBtn"
             onClick={() => setSelectedProject(`${project.title}`)}
           >
             {project.title}
