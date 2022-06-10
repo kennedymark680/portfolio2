@@ -29,11 +29,9 @@ const Left = ({ setMain }) => {
           <button onClick={() => setMain('PROJECTS')}>Projects</button>
         </li>
         <li>
-          <button className="resume">
-            <a href={Resume} target="_blank" style={{ color: 'white' }}>
-              Resume
-            </a>
-          </button>
+          <a href={Resume} target="_blank" className="resume">
+            <button>Resume</button>
+          </a>
         </li>
       </ul>
     </div>

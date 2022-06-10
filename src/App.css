@@ -50,6 +50,15 @@
   border-radius: 5px;
 }
 
+.resume {
+  color: white;
+  text-decoration: none;
+}
+
+.resume:hover {
+  color: #112240;
+}
+
 .left button:hover {
   background-color: white;
   color: #112240;
@@ -88,7 +97,7 @@
 }
 
 .titles {
-  color: #b9992c;
+  color: #947a24;
 }
 
 .contactRight {
